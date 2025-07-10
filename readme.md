@@ -5,13 +5,15 @@ This repository provides a modular starter template built with Express.js and Ne
 ## **Technologies Used**
 
 Backend: ExpressJS, TypeScript, JSON Web Token, JOI validations, MongoDB, Mongoose.
-Frontend: NextJS, TypeScript
+**(WIP)** Frontend: NextJS, TypeScript
 
 ## **Project Structure**
 
+```
 /
 ├── backend/
 ├── frontend/
+```
 
 ## **Getting Started**
 
@@ -19,21 +21,27 @@ Follow these steps to get the project up and running on your local machine.
 
 ### **Installation**
 
-1. **Clone the repository:**  
-      `git clone https://github.com/masaroli/express-typescript-jwt-auth-starter.git`
-      `cd express-typescript-jwt-auth-starter`
+1. **Clone the repository:**
 
-2. **Install backend dependencies**  
-      `cd backend && npm install`
+   `git clone https://github.com/masaroli/auth-boilerplate.git`
+   `cd express-typescript-jwt-auth-starter`
+
+2. **Install backend dependencies**
+
+   `cd backend && npm install`
 
 3. **Create `.env` file for Backend:**
-   Create a file named `.env` **inside the `backend/` folder** (i.e., `backend/.env`). This file will store your sensitive environment variables. You can use the .env.example as guidance
+
+   Create a `.env` **inside the `backend/` folder** (i.e., `backend/.env`).
+   You can use the .env.example as guidance
 
 4. **Install frontend dependencies**
+
    `cd ../frontend && npm install`
 
 5. **Create `.env.local` file for Frontend:**
-   Create a file named `.env.local` **inside the `frontend/` folder** (i.e., `frontend/.env.local`). This file will store environment variables specific to your Next.js frontend.
+
+   Create a file named `.env.local` **inside the `frontend/` folder** (i.e., `frontend/.env.local`).to your Next.js frontend.
 
    Add the following variable:
 
