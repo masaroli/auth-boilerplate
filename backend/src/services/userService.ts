@@ -1,4 +1,3 @@
-import bcrypt from "bcryptjs/umd/types";
 import mongoose from "mongoose";
 
 import config from "../config";
@@ -10,7 +9,7 @@ import {
   userIdSchema,
 } from "../validations/userValidations";
 import UserModel from "../models/User/User";
-
+import bcrypt from "bcryptjs";
 /**
  * Retrieves all users from the database, excluding sensitive information like password hashes.
  * Maps the Mongoose documents to UserProfileDto.
